@@ -293,6 +293,47 @@ margin-top: 30px;
 #testm>h4 {
    font-weight: 500;
 }
+#community-feedback {
+   text-align: center;
+}
+
+#community-feedback>h2 {
+   font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+   .desktop-icon {
+      display: none;
+   }
+
+   .mobile-icon {
+      display: inline;
+   }
+}
+
+@media screen and (min-width: 769px) {
+   .desktop-icon {
+      display: inline;
+   }
+
+   .mobile-icon {
+      display: none;
+   }
+}
+
+/* Apply the <br> tag only for mobile screens */
+@media screen and (max-width: 768px) {
+   .mobile-only {
+      display: inline;
+   }
+}
+
+/* Hide the <br> tag for desktop screens */
+@media screen and (min-width: 769px) {
+   .mobile-only {
+      display: none;
+   }
+}
 .call-div {
    width: 40px;
    height: 40px;
