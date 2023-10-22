@@ -418,11 +418,18 @@ li::before {
 }
 
 #devices {
-  height: 250px;
-  background-image: url("images/getapp.png");
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px; */
+  /* background-image: url("images/getapp.png");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position-x: -2px;
+  background-position-x: -2px; */
+}
+#devices > img {
+  margin: auto;
+  width: 60%;
 }
 
 #semi {
@@ -568,7 +575,6 @@ hr {
 
   #Community {
     display: flex;
-    /* border: solid red; */
     box-sizing: border-box;
     justify-content: center;
     gap: 5%;
@@ -598,17 +604,6 @@ hr {
 
   video {
     width: 650px;
-  }
-
-  #devices {
-    width: 100%;
-    height: 500px;
-    background-image: url("images/getapp.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position-x: -4px;
-    position: relative;
-    left: 24%;
   }
 
   #headerSection > div > p {
@@ -687,6 +682,9 @@ hr {
   #mint h3,
   #mintx h3 {
     font-size: inherit;
+  }
+  .letter_div {
+    width: 65%;
   }
   .br-on-desktop {
     display: none;
